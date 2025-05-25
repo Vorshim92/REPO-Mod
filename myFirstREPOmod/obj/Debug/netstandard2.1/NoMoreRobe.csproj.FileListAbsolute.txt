@@ -1,8 +1,0 @@
-C:\Users\Vorshim\Documents\GitHub\REPO-Mod\myFirstREPOmod\bin\Debug\netstandard2.1\NoMoreRobe.deps.json
-C:\Users\Vorshim\Documents\GitHub\REPO-Mod\myFirstREPOmod\bin\Debug\netstandard2.1\NoMoreRobe.dll
-C:\Users\Vorshim\Documents\GitHub\REPO-Mod\myFirstREPOmod\obj\Debug\netstandard2.1\NoMoreRobe.csproj.AssemblyReference.cache
-C:\Users\Vorshim\Documents\GitHub\REPO-Mod\myFirstREPOmod\obj\Debug\netstandard2.1\NoMoreRobe.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Vorshim\Documents\GitHub\REPO-Mod\myFirstREPOmod\obj\Debug\netstandard2.1\NoMoreRobe.AssemblyInfoInputs.cache
-C:\Users\Vorshim\Documents\GitHub\REPO-Mod\myFirstREPOmod\obj\Debug\netstandard2.1\NoMoreRobe.AssemblyInfo.cs
-C:\Users\Vorshim\Documents\GitHub\REPO-Mod\myFirstREPOmod\obj\Debug\netstandard2.1\NoMoreRobe.csproj.CoreCompileInputs.cache
-C:\Users\Vorshim\Documents\GitHub\REPO-Mod\myFirstREPOmod\obj\Debug\netstandard2.1\NoMoreRobe.dll
