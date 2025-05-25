@@ -1,1 +1,1 @@
-dotnet build myFirstREPOmod/myFirstREPOmod.sln
+dotnet build NoMoreRobeMod/NoMoreRobeMod.sln

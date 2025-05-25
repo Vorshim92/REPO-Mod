@@ -64,7 +64,7 @@ public class EnemyHealthDeathFix
         var deadImpulse = ReflectionHelpers.GetPrivateField<bool>(__instance, "deadImpulse");
         var deadImpulseTimer = ReflectionHelpers.GetPrivateField<float>(__instance, "deadImpulseTimer");
         
-        // Se il nemico è morto ma deadImpulse è ancora attivo dopo troppo tempo
+        // Se il nemico ha INIZIATO e deadImpulse è ancora attivo dopo troppo tempo
         if (__instance.dead == false && deadImpulse && deadImpulseTimer < -5f)
         {
             NoMoreRobe.Logger.LogWarning($"Forcing death completion for stuck enemy");
@@ -84,8 +84,8 @@ public class RobeDeathStateFix
         if (!NoMoreRobe.ShouldEnableDeathFix()) return;
         
         if (__instance.enemy.HasHealth && 
-            __instance.enemy.Health.dead && 
-            __instance.currentState != EnemyRobe.State.Despawn)
+            __instance.enemy.Health.dead && // È morto (dead = true)
+            __instance.currentState != EnemyRobe.State.Despawn) // Ma è ancora in Idle! (o Stun o altro che non sia Despawn)
         {
             if (!_fixedRobes.Contains(__instance))
             {
